@@ -1,0 +1,31 @@
+.avatar-sm {
+  width:60rpx;
+  height:60rpx;
+  border-radius:50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.avatar-md {
+  width:90rpx;
+  height:90rpx;
+  border-radius:50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.avatar-ml {
+  width:160rpx;
+  height:160rpx;
+  border-radius:50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}
+
+.avatar-lg {
+  width:240rpx;
+  height:240rpx;
+  border-radius:50%;
+  flex-shrink: 0;
+  flex-grow: 0;
+}

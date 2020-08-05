@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://bc-fonts.oss-cn-shanghai.aliyuncs.com/montserrat/Montserrat-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(https://bc-fonts.oss-cn-shanghai.aliyuncs.com/montserrat/Montserrat-Medium.ttf) format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'Montserrat';
+    src: url(https://bc-fonts.oss-cn-shanghai.aliyuncs.com/montserrat/Montserrat-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }

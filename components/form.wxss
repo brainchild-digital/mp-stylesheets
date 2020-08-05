@@ -1,0 +1,16 @@
+.form-group {
+  margin-bottom:20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.form-label {
+  padding-bottom: 28rpx;
+  box-sizing: border-box;
+}
+
+.form-value {
+  text-align: left;
+  padding-bottom: 28rpx;
+  width: 70%;
+}

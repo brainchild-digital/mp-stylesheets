@@ -1,0 +1,51 @@
+@import 'fonts';
+
+page {
+  /* colors (DON'T CHANGE VARIABLE NAMES)*/
+  --pri: #fff;
+  --sec: #fff;
+  --ter: #fff;
+  --white: #fff;
+  --black: #000;
+  --white: #fff;
+  --greySlight: #efefef;
+  --greyLight: #d6d6d6;
+  --grey: #6d6d6d;
+  --greyDark: #333333;
+  --yellow: #ffca00;
+  --orange: #F08302;
+  --red: #BF3F50;
+  --redLight: #d86964;
+  --purple: #d5a2ff;
+  --navy: #0f1221;
+  --blue: #242e49;
+  --blueLight: #4c5985;
+  --green: #76D5AB;
+  --teal: #C9DED6;
+  --blueCream: #bac2d9;
+  --blueCreamDark: #757b95;
+  --blueCreamVDark: #2b3451;
+  --blueGradient: linear-gradient(to left, #0575e6, #021b79);
+  --bottomSafe: env(safe-area-inset-bottom);
+
+  /* fonts */
+  font-family: 'Montserrat', sans-serif;
+
+  /* other styles */
+  box-sizing: border-box;
+
+  /* TEXT */
+  font-size: 28rpx;
+}
+
+.page-footer {
+  height: calc(100rpx + 20rpx + 20rpx + var(--bottomSafe)) /* tabbar height + pt & pb + safe area */
+}
+
+.container {
+  padding: 60rpx 20rpx 0 20rpx;
+  box-sizing: border-box;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
