@@ -35,4 +35,5 @@
 .z7 { z-index: 7; }
 .z8 { z-index: 8; }
 .z9 { z-index: 9; }
+.z99 { z-index: 99; }
 .z999 { z-index: 999; }

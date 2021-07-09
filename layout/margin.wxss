@@ -131,3 +131,46 @@
 .px50 { padding-right: 50rpx !important; padding-left: 50rpx !important; }
 .px60 { padding-right: 60rpx !important; padding-left: 60rpx !important; }
 .px100 { padding-right: 100rpx !important; padding-left: 100rpx !important; }
+
+.grid-3 { 
+  display: grid;
+  grid-template-columns: 33% 33% 33%;
+  grid-column-gap: 10rpx;
+  grid-row-gap: 10rpx;
+}
+.grid-4 { display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  grid-row-gap: 15rpx;
+}
+.grid-4-start { display: grid;
+ grid-template-columns: 25% 25% 25% 25%;
+  justify-items: center;
+  grid-row-gap: 10rpx;
+}
+.dots::before { content:  '';
+ position: relative;
+  width: 80%;
+  border-bottom: 2px dotted #ccc;
+  z-index: -1;
+  left: 30px;
+}
+
+.dotted { vertical-align: middle;
+  background-image:radial-gradient(#ccc 0.9px, white 0px);
+  background-size: 5px 5px; 
+  background-repeat: repeat-x;
+  background-position: 0 65%;
+}
+
+.clearfix::after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
+.fl { float: left }
+.fr { float: right }
+.invisible-footer { height: 450rpx; }

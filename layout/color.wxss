@@ -7,6 +7,7 @@
 .ter { color: var(--ter) !important; }
 .white { color: var(--white) !important; }
 .black { color: var(--black) !important; }
+.dim { color: var(--dim) !important; }
 .grey-light { color: var(--greyLight) !important; }
 .grey { color: var(--grey) !important; }
 .grey-dark { color: var(--greyDark) !important; }
@@ -20,9 +21,8 @@
 .blue { color: var(--blue) !important; }
 .blue-light { color: var(--blueLight) !important; }
 .green { color: var(--green) !important; }
-.blue-cream { color: var(--blueCream) !important; }
-.blue-cream-dark { color: var(--blueCreamDark) !important; }
-.blue-cream-vdark { color: var(--blueCreamVDark) !important; }
+.tab { color: var(--tab); }
+.tab-cur { color: var(--tabCur); }
 
 /* BACKGROUND COLORS */
 .bg-trans { background-color: transparent; }
@@ -30,6 +30,7 @@
 .bg-sec { background-color: var(--sec); }
 .bg-ter { background-color: var(--ter); }
 .bg-white { background-color: var(--white); }
+.bg-dim { background-color: var(--dim); }
 .bg-grey-light { background-color: var(--greyLight); }
 .bg-grey { background-color: var(--grey); }
 .bg-grey-dark { background-color: var(--greyDark); }
@@ -43,12 +44,9 @@
 .bg-blue { background-color: var(--blue); }
 .bg-black { background-color: var(--black); }
 .bg-blue-light { background-color: var(--blueLight); }
-.bg-sl-blue { background-color: var(--blueLight); }
 .bg-green { background-color: var(--green); }
-.bg-blue-gradient { background: var(--blueGradient); }
-.bg-blue-cream { background-color: var(--blueCream) }
-.bg-blue-cream-dark { background-color: var(--blueCreamDark) }
-.bg-blue-cream-vdark { background-color: var(--blueCreamVDark) }
+.bg-tab { background-color: var(--tab); }
+.bg-tab-cur { background-color: var(--tabCur); }
 
 /* BORDER COLORS */
 .b-trans { border-color: transparent; }
@@ -57,6 +55,7 @@
 .b-ter { border-color: var(--ter); }
 .b-white { border-color: var(--white); }
 .b-black { border-color: var(--black); }
+.b-dim { border-color: var(--dim); }
 .b-grey-light { border-color: var(--greyLight) }
 .b-grey { border-color: var(--grey); }
 .b-grey-dark { border-color: var(--greyDark); }
@@ -68,9 +67,8 @@
 .b-blue { border-color: var(--blue); }
 .b-blue-light { border-color: var(--blueLight) }
 .b-green { border-color: var(--green); }
-.b-blue-cream { border-color: var(--blueCream) }
-.b-blue-cream-dark { border-color: var(--blueCreamDark) }
-.b-blue-cream-vdark { border-color: var(--blueCreamVDark) }
+.b-tab { border-color: var(--tab); }
+.b-tab-cur { border-color: var(--tabCur); }
 
 .opacity7 { opacity: 0.7; }
 .opacity5 { opacity: 0.5; }

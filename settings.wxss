@@ -1,45 +1,48 @@
-@import 'fonts';
+@import 'fonts.wxss';
 
 page {
   /* colors (DON'T CHANGE VARIABLE NAMES)*/
-  --pri: #fff;
-  --sec: #fff;
-  --ter: #fff;
+  --pri: #FF5100;
+  --sec: #00B09A;
+  --ter: #3F2C55;
   --white: #fff;
   --black: #000;
   --white: #fff;
-  --greySlight: #efefef;
+  --dim: #EBEBEB;
   --greyLight: #d6d6d6;
-  --grey: #6d6d6d;
+  --grey: #59595B;
   --greyDark: #333333;
   --yellow: #ffca00;
   --orange: #F08302;
-  --red: #BF3F50;
+  --red: #BA2454;
   --redLight: #d86964;
-  --purple: #d5a2ff;
+  --purple: #9F96AA;
   --navy: #0f1221;
   --blue: #242e49;
   --blueLight: #4c5985;
   --green: #76D5AB;
-  --teal: #C9DED6;
-  --blueCream: #bac2d9;
-  --blueCreamDark: #757b95;
-  --blueCreamVDark: #2b3451;
-  --blueGradient: linear-gradient(to left, #0575e6, #021b79);
+  --tab: #6d6d6d;
+  --tabCur: #FF5100;
   --bottomSafe: env(safe-area-inset-bottom);
 
   /* fonts */
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Raleway', sans-serif;
 
   /* other styles */
   box-sizing: border-box;
 
   /* TEXT */
   font-size: 28rpx;
+  font-weight: 300;
+  /* 100/300/500/700 */
 }
 
 .page-footer {
   height: calc(100rpx + 20rpx + 20rpx + var(--bottomSafe)) /* tabbar height + pt & pb + safe area */
+}
+
+.safe-bottom {
+  height: var(--bottomSafe);
 }
 
 .container {

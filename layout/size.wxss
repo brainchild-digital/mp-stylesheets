@@ -1,5 +1,5 @@
-.box-b { box-sizing: border-box; }
-.box-c { box-sizing: content-box; }
+.bbox { box-sizing: border-box; }
+.cbox { box-sizing: content-box; }
 
 /* WIDTH */
 .w100 { width: 100% !important; }
@@ -15,7 +15,6 @@
 .w20 { width: 20%; }
 .w10 { width: 10%; }
 .vw { width: 100vw; }
-.minw50 { min-width: 50px; }
 
 /* HEIGHT */
 .h100 { height: 100%; }
@@ -29,4 +28,3 @@
 .h20 { height: 20%; }
 .h10 { height: 10%; }
 .vh100 { height: 100vh; }
-.min-vh100 { min-height: 100vh; }
